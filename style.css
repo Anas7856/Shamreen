@@ -2290,13 +2290,13 @@ body {
 /* ---------- Contact ---------- */
 .contact {
   position: relative;
-  padding: 130px 24px;
+  padding: 150px 24px;
   background-color: #151213;
   background-image:
     linear-gradient(rgba(21, 18, 19, 0.65), rgba(21, 18, 19, 0.45)),
-    url("images/formbg.jpg");
+    url("images/getintouch.png");
   background-size: cover;
-  background-position: center;
+  background-position: start;
   background-repeat: no-repeat;
   overflow: hidden;
 }
@@ -2583,7 +2583,7 @@ body {
   .contact {
     background-image:
       linear-gradient(rgba(21, 18, 19, 0.85), rgba(21, 18, 19, 0.85)),
-      url("images/mob2.png");
+      url("images/getintouch.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

@@ -25,7 +25,7 @@
   </head>
   <body>
     <header class="navbar">
-      <a href="#" class="navbar__brand">
+      <a href="#top" class="navbar__brand">
         <span class="navbar__logo">
           <img src="images/logo.png" alt="Sharmeen Osmany logo" />
         </span>
@@ -34,15 +34,17 @@
       <nav class="navbar__menu" id="navMenu">
         <ul class="navbar__links">
           <li>
-            <a href="#" class="navbar__link is-active">Listen to Music</a>
+            <a href="#music" class="navbar__link is-active">Listen to Music</a>
           </li>
-          <li><a href="#" class="navbar__link">Watch Videos</a></li>
-          <li><a href="#" class="navbar__link">Meet the Artist</a></li>
+          <li><a href="#tour" class="navbar__link">Watch Videos</a></li>
+          <li><a href="#about" class="navbar__link">Meet the Artist</a></li>
         </ul>
-        <a href="#" class="navbar__btn navbar__btn--mobile">Contact us</a>
+        <a href="#contact" class="navbar__btn navbar__btn--mobile"
+          >Contact us</a
+        >
       </nav>
 
-      <a href="#" class="navbar__btn navbar__btn--desktop">Contact us</a>
+      <a href="#contact" class="navbar__btn navbar__btn--desktop">Contact us</a>
 
       <button
         class="navbar__toggle"
@@ -54,7 +56,7 @@
       </button>
     </header>
 
-    <section class="hero">
+    <section class="hero" id="top">
       <div class="swiper hero__slider">
         <div class="swiper-wrapper">
           <!-- Slide 1 -->
@@ -67,13 +69,9 @@
           >
             <div class="hero__overlay"></div>
             <div class="hero__content">
-              <span class="hero__tag">Live in Concert</span>
-              <h1 class="hero__title">Feel The Music</h1>
-              <p class="hero__text">
-                Join us for an unforgettable night of live music, lights and
-                pure energy.
-              </p>
-              <a href="#" class="hero__btn">Buy Tickets</a>
+              <h1 class="hero__title">Sharmeen Osmany</h1>
+              <p class="hero__text">Rooted in Tradition. Inspired by Sound.</p>
+              <a href="#tour" class="hero__btn">Buy Tickets</a>
             </div>
           </div>
 
@@ -87,12 +85,9 @@
           >
             <div class="hero__overlay"></div>
             <div class="hero__content">
-              <span class="hero__tag">New Album</span>
-              <h1 class="hero__title">Out Now</h1>
-              <p class="hero__text">
-                Listen to the latest album available on all streaming platforms.
-              </p>
-              <a href="#" class="hero__btn">Listen Now</a>
+              <h1 class="hero__title">Sharmeen Osmany</h1>
+              <p class="hero__text">Rooted in Tradition. Inspired by Sound.</p>
+              <a href="#music" class="hero__btn">Listen Now</a>
             </div>
           </div>
 
@@ -106,12 +101,9 @@
           >
             <div class="hero__overlay"></div>
             <div class="hero__content">
-              <span class="hero__tag">World Tour 2026</span>
-              <h1 class="hero__title">See Us Live</h1>
-              <p class="hero__text">
-                Catch the tour in a city near you. Limited tickets available.
-              </p>
-              <a href="#" class="hero__btn">View Dates</a>
+              <h1 class="hero__title">Sharmeen Osmany</h1>
+              <p class="hero__text">Rooted in Tradition. Inspired by Sound.</p>
+              <a href="#tour" class="hero__btn">View Dates</a>
             </div>
           </div>
         </div>
@@ -193,7 +185,7 @@
       </svg>
     </button>
 
-    <!-- ---------- Tour Dates Section ---------- -->
+    <!-- ---------- Watch Videos Section ---------- -->
     <section class="tour" id="tour">
       <h2 class="tour__heading reveal"><span>Watch Vidoes</span></h2>
 
@@ -216,99 +208,122 @@
 
         <div class="swiper tour__slider">
           <div class="swiper-wrapper">
+            <!-- Video 1: thumbnail apni upload kar ke images/thumb-1.jpg ki jagha path set kar lena -->
             <a
-              href="#"
+              href="https://youtu.be/gz7cr6WCB1s"
+              target="_blank"
+              rel="noopener"
               class="swiper-slide tour__card"
-              style="--img: url(&quot;images/mobslde.png&quot;)"
+              style="--img: url(&quot;images/Sochta Hoon.png&quot;)"
             >
-              <div class="tour__price">
-                <small>From</small>
-                <strong>$80</strong>
-                <small>Buy Ticket</small>
-              </div>
               <div class="tour__info">
-                <h3>Lahore Live</h3>
-                <p>January 18, 2027 / 07:00 PM / Lahore</p>
+                <h3>Sochta Hoon</h3>
               </div>
             </a>
 
+            <!-- Video 2 -->
             <a
-              href="#"
+              href="https://youtu.be/Swj2TwpWRtY"
+              target="_blank"
+              rel="noopener"
               class="swiper-slide tour__card"
-              style="--img: url(&quot;images/mob2.png&quot;)"
+              style="--img: url(&quot;images/Ishq Nachaya.png&quot;)"
             >
-              <div class="tour__price">
-                <small>From</small>
-                <strong>$49</strong>
-                <small>Buy Ticket</small>
-              </div>
               <div class="tour__info">
-                <h3>Sufi Night</h3>
-                <p>February 12, 2027 / 08:00 PM / Karachi</p>
+                <h3>Ishq Nachaya</h3>
               </div>
             </a>
 
+            <!-- Video 3 -->
             <a
-              href="#"
+              href="https://youtu.be/iDYvDwWoYFE"
+              target="_blank"
+              rel="noopener"
               class="swiper-slide tour__card"
-              style="--img: url(&quot;images/mob3.png&quot;)"
+              style="--img: url(&quot;images/Ghar Nari.png&quot;)"
             >
-              <div class="tour__price">
-                <small>From</small>
-                <strong>$65</strong>
-                <small>Buy Ticket</small>
-              </div>
               <div class="tour__info">
-                <h3>Folk Festival</h3>
-                <p>March 05, 2027 / 06:30 PM / Islamabad</p>
+                <h3>Ghar Nari</h3>
               </div>
             </a>
 
+            <!-- Video 4 -->
             <a
-              href="#"
+              href="https://youtu.be/Sx5UUBDNjxI"
+              target="_blank"
+              rel="noopener"
               class="swiper-slide tour__card"
-              style="--img: url(&quot;images/slide3.png&quot;)"
+              style="--img: url(&quot;images/Chaap Tilak.png&quot;)"
             >
-              <div class="tour__price">
-                <small>From</small>
-                <strong>$75</strong>
-                <small>Buy Ticket</small>
-              </div>
               <div class="tour__info">
-                <h3>Roots Concert</h3>
-                <p>April 10, 2027 / 07:30 PM / Multan</p>
+                <h3>Chaap Tilak</h3>
               </div>
             </a>
 
+            <!-- Video 5 -->
             <a
-              href="#"
+              href="https://youtu.be/iMSC8MgSazE"
+              target="_blank"
+              rel="noopener"
               class="swiper-slide tour__card"
-              style="--img: url(&quot;images/slide2.png&quot;)"
+              style="
+                --img: url(&quot;images/Aye Dil Kisi Ki Yaad Mein .png&quot;);
+              "
             >
-              <div class="tour__price">
-                <small>From</small>
-                <strong>$55</strong>
-                <small>Buy Ticket</small>
-              </div>
               <div class="tour__info">
-                <h3>Acoustic Evening</h3>
-                <p>May 21, 2027 / 08:00 PM / Peshawar</p>
+                <h3>Aye Dil Kisi Ki Yaad Mein</h3>
               </div>
             </a>
 
+            <!-- Video 6 -->
             <a
-              href="#"
+              href="https://youtu.be/Mxd2OjUgiS0"
+              target="_blank"
+              rel="noopener"
               class="swiper-slide tour__card"
-              style="--img: url(&quot;images/about.png&quot;)"
+              style="--img: url(&quot;images/Lang Aaja.png&quot;)"
             >
-              <div class="tour__price">
-                <small>From</small>
-                <strong>$90</strong>
-                <small>Buy Ticket</small>
-              </div>
               <div class="tour__info">
-                <h3>Grand Finale</h3>
-                <p>June 14, 2027 / 09:00 PM / Dubai</p>
+                <h3>Lang Aa Ja</h3>
+              </div>
+            </a>
+
+            <!-- Video 7 -->
+            <a
+              href="https://youtu.be/XDMHNui7UFk"
+              target="_blank"
+              rel="noopener"
+              class="swiper-slide tour__card"
+              style="--img: url(&quot;images/Hamari Sanson Mein.png&quot;)"
+            >
+              <div class="tour__info">
+                <h3>Hamari Saanson Mein</h3>
+              </div>
+            </a>
+
+            <!-- Video 8 -->
+            <a
+              href="https://youtu.be/0m6Ct5WchGM"
+              target="_blank"
+              rel="noopener"
+              class="swiper-slide tour__card"
+              style="--img: url(&quot;images/Is Karam Ka.png&quot;)"
+            >
+              <div class="tour__info">
+                <h3>Is Karam Ka</h3>
+              </div>
+            </a>
+
+            <!-- Video 9 -->
+            <a
+              href="https://youtu.be/wIaeMvYngkc"
+              target="_blank"
+              rel="noopener"
+              class="swiper-slide tour__card"
+              style="--img: url(&quot;images/Roshan-o-Rakhshan.png&quot;)"
+            >
+              <div class="tour__info">
+                <h3>Roshan-o-Rakhshan</h3>
               </div>
             </a>
           </div>
@@ -497,19 +512,19 @@
               <span class="album__song">Sun Charkhe Di</span>
               <span class="album__time">3:57</span>
             </li>
+            <!-- NEW TRACK 11: song name, data-src path aur time apna set kar lena -->
+            <li class="album__track" data-src="images/IS KARAM KA.mp3">
+              <span class="album__num">11</span>
+              <span class="album__song">IS KARAM KA</span>
+              <span class="album__time">3:36</span>
+            </li>
+            <!-- NEW TRACK 12: song name, data-src path aur time apna set kar lena -->
+            <li class="album__track" data-src="images/Roshan-o-Rakhshan.mp3">
+              <span class="album__num">12</span>
+              <span class="album__song">Roshan-o-Rakhshan</span>
+              <span class="album__time">6:01</span>
+            </li>
           </ol>
-
-          <div class="album__listen">
-            <span class="album__label">Listen To The Album</span>
-            <div class="album__links">
-              <a href="#" class="album__link" target="_blank" rel="noopener"
-                >YouTube Music</a
-              >
-            </div>
-            <a href="#" class="album__btn" target="_blank" rel="noopener"
-              >Listen Now</a
-            >
-          </div>
         </div>
       </div>
     </section>
@@ -586,9 +601,9 @@
 
     <!-- ---------- Footer ---------- -->
     <footer class="footer">
-      <div class="footer__inner">
+      <div class="footer__inner reveal">
         <div class="footer__brand">
-          <a href="#" class="footer__logo" aria-label="Sharmeen Osmany">
+          <a href="#top" class="footer__logo" aria-label="Sharmeen Osmany">
             <img src="images/logo.png" alt="Sharmeen Osmany logo" />
           </a>
           <h3 class="footer__name">Sharmeen Osmany</h3>
@@ -608,7 +623,7 @@
           <h4 class="footer__title">Connect</h4>
           <div class="footer__social">
             <a
-              href="#"
+              href="https://www.youtube.com/@SharmeenOsmanyOffical"
               class="footer__icon"
               target="_blank"
               rel="noopener"
@@ -627,7 +642,7 @@
               </svg>
             </a>
             <a
-              href="#"
+              href="https://soundcloud.com/sharmeenosmany"
               class="footer__icon"
               target="_blank"
               rel="noopener"
@@ -651,7 +666,7 @@
         <div class="footer__col">
           <h4 class="footer__title">For Inquiries</h4>
           <a href="mailto:email@example.com" class="footer__mail"
-            >[Official Email Address]</a
+            >sharmeenosmany@gmail.com</a
           >
         </div>
       </div>
@@ -664,5 +679,76 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11.1.14/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
     <script src="player.js"></script>
+
+    <!-- Smooth scroll to sections + navbar active link on scroll -->
+    <script>
+      (function () {
+        var navbar = document.querySelector(".navbar");
+        var navToggle = document.getElementById("navToggle");
+        var navLinks = document.querySelectorAll(".navbar__link");
+
+        function offset() {
+          return navbar ? navbar.offsetHeight : 0;
+        }
+
+        // Smooth scroll for every in-page link
+        document.querySelectorAll('a[href^="#"]').forEach(function (a) {
+          var href = a.getAttribute("href");
+          if (!href || href === "#") return;
+          a.addEventListener("click", function (e) {
+            var target =
+              href === "#top" ? document.body : document.querySelector(href);
+            if (!target) return;
+            e.preventDefault();
+            var y =
+              href === "#top"
+                ? 0
+                : target.getBoundingClientRect().top +
+                  window.pageYOffset -
+                  offset();
+            window.scrollTo({ top: y, behavior: "smooth" });
+
+            // close mobile menu if open
+            if (
+              navToggle &&
+              navToggle.getAttribute("aria-expanded") === "true"
+            ) {
+              navToggle.click();
+            }
+          });
+        });
+
+        // Active nav link while scrolling
+        var map = [
+          { id: "about", link: "#about" },
+          { id: "tour", link: "#tour" },
+          { id: "video", link: "#tour" },
+          { id: "music", link: "#music" },
+        ];
+
+        function setActive(href) {
+          navLinks.forEach(function (l) {
+            l.classList.toggle("is-active", l.getAttribute("href") === href);
+          });
+        }
+
+        function onScroll() {
+          var line = offset() + window.innerHeight * 0.3;
+          var current = null;
+          map.forEach(function (m) {
+            var el = document.getElementById(m.id);
+            if (el && el.getBoundingClientRect().top <= line) current = m.link;
+          });
+          var contact = document.getElementById("contact");
+          if (contact && contact.getBoundingClientRect().top <= line) {
+            current = null;
+          }
+          setActive(current);
+        }
+
+        window.addEventListener("scroll", onScroll, { passive: true });
+        onScroll();
+      })();
+    </script>
   </body>
 </html>
