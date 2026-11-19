@@ -275,7 +275,7 @@ body {
 }
 
 .hero__btn {
-  display: none;
+  display: inline-block;
   padding: 16px 38px;
   background: var(--accent);
   color: var(--white);
